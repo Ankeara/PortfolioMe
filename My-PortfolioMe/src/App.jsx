@@ -1,11 +1,15 @@
-
+import Nav from "./components/Navbar"
+import Home from "./components/home"
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <div>
+        <Nav />
+        <Home />
+      </div>
+    </>
   )
 }
 
